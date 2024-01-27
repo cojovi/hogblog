@@ -1,11 +1,13 @@
 export default defineNuxtConfig({
-  // https://github.com/nuxt-themes/alpine
   extends: '@nuxt-themes/alpine',
 
+  site: {
+    url: 'https://cojovi.com',
+  },
+
   modules: [
-    // https://github.com/nuxt-modules/plausible
     '@nuxtjs/plausible',
-    // https://github.com/nuxt/devtools
+    '@nuxtjs/seo',
     '@nuxtjs/sitemap',
     'nuxt-simple-robots',
     '@nuxt/devtools'
