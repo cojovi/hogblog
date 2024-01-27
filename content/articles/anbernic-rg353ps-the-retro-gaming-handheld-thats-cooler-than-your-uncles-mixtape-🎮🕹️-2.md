@@ -6,6 +6,7 @@ date: 2023-09-04 11:06:52
 author:
   name: CojoviDigital
 cover: /Anbernic-RG353PS.jpeg
+layout: article
 ---
 
 * * *

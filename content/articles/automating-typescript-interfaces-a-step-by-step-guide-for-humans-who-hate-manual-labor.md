@@ -4,6 +4,7 @@ description: >-
   Manual Labor
 date: 2023-05-04 08:18:57
 cover: https://www.wisdomgeek.com/wp-content/uploads/2021/04/typescript-interface-and-type-920x518.jpg.webp
+layout: article
 ---
 
 TypeScript, the strongly-typed superset of JavaScript, provides a way to describe the shape of an object with its interface keyword. While defining interfaces manually is straightforward, automating the process can be beneficial, especially for lazy people like me. This article will guide you through automating TypeScript interface creation in a way that is both easy and hilarious.

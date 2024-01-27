@@ -6,6 +6,8 @@ export default defineNuxtConfig({
     // https://github.com/nuxt-modules/plausible
     '@nuxtjs/plausible',
     // https://github.com/nuxt/devtools
+    '@nuxtjs/sitemap',
+    'nuxt-simple-robots',
     '@nuxt/devtools'
   ]
 })
