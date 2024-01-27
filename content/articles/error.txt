@@ -1,0 +1,70 @@
+  ➜ Network:  http://192.168.1.99:3000/ [QR code]
+
+                                                                            @nuxtjs/seo 
+3:05:11 AM
+Nuxt SEO v2.0.0-rc.5 by @harlan_zw                                          @nuxtjs/seo 
+3:05:11 AM
+[@nuxtjs/seo 3:05:11 AM]   └─ 🧪 Help get Nuxt SEO stable by providing feedback 
+https://github.com/harlan-zw/nuxt-seo/discussions/108
+                                                                            @nuxtjs/seo 
+3:05:11 AM
+  ➜ DevTools: press Shift + Option + D in the browser (v1.0.8)                          
+3:05:14 AM
+
+
+[3:05:31 AM]  WARN  (inject plugin) rollup-plugin-inject: failed to parse 
+/Users/cojovi/Github/hotblog/blog/node_modules/shikiji/dist/onig.wasm. Consider restricting 
+the plugin to particular files via options.include
+
+✔ Nitro built in 11111 ms                                                        nitro 
+3:05:38 AM
+ℹ Vite client warmed up in 15406ms                                                     
+3:05:39 AM
+ℹ Vite server warmed up in 14455ms                                                     
+3:05:39 AM
+[nitro] [unhandledRejection] YAMLException: bad indentation of a mapping entry (1:47)
+
+ 1 |  ... stering the Art of Social Media: Strategies for the Uninitiated
+-----------------------------------------^
+ 2 |  ...
+ 3 |  ... 6 01:01:06
+    at generateError 
+(file:///Users/cojovi/Github/hotblog/blog/node_modules/js-yaml/dist/js-yaml.mjs:1273:10)
+    at throwError 
+(file:///Users/cojovi/Github/hotblog/blog/node_modules/js-yaml/dist/js-yaml.mjs:1277:9)
+    at readBlockMapping 
+(file:///Users/cojovi/Github/hotblog/blog/node_modules/js-yaml/dist/js-yaml.mjs:2272:7)
+    at composeNode 
+(file:///Users/cojovi/Github/hotblog/blog/node_modules/js-yaml/dist/js-yaml.mjs:2531:12)
+    at readDocument 
+(file:///Users/cojovi/Github/hotblog/blog/node_modules/js-yaml/dist/js-yaml.mjs:2715:3)
+    at loadDocuments 
+(file:///Users/cojovi/Github/hotblog/blog/node_modules/js-yaml/dist/js-yaml.mjs:2778:5)
+    at Object.load$1 [as load] 
+(file:///Users/cojovi/Github/hotblog/blog/node_modules/js-yaml/dist/js-yaml.mjs:2804:19)
+    at parseFrontMatter 
+(file:///Users/cojovi/Github/hotblog/blog/node_modules/remark-mdc/dist/index.mjs:33:21)
+    at parseMarkdown 
+(/Users/cojovi/Github/hotblog/blog/node_modules/@nuxtjs/mdc/dist/runtime/parser/index.mjs:27:48)
+    at Object.parse 
+(/Users/cojovi/Github/hotblog/blog/node_modules/@nuxt/content/dist/runtime/transformers/markdown.js:13:20) 
+{
+  reason: 'bad indentation of a mapping entry',
+  mark: {
+    name: null,
+    buffer: 'description: Mastering the Art of Social Media: Strategies for the Uninitiated\n' 
++
+      'layout: article\n' +
+      'date: 2024-01-26 01:01:06\n' +
+      'cover: https://i.imgur.com/5OvEF8l.jpg\n' +
+      'name: CojoviDigital\n',
+    position: 46,
+    line: 0,
+    column: 46,
+    snippet: ' 1 |  ... stering the Art of Social Media: Strategies for the Uninitiated\n' +
+      '-----------------------------------------^\n' +
+      ' 2 |  ... \n' +
+      ' 3 |  ... 6 01:01:06'
+  }
+}
+^C%     
